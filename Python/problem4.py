@@ -2,12 +2,13 @@
 # https://projecteuler.net/problem=4
 
 # Problem 4 - Largest Palindrome Product
+# SOLVED & VERIFIED VIA PROJECT EULER
 
 # A palindromic number reads the same both ways.
 # The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99.
 # Find the largest palindrome made from the product of two 3-digit numbers.
 
-class largestPalindrome():
+def largestPalindrome():
 
     palindromes = [] # Create blank list to store palindromes
 
@@ -17,5 +18,6 @@ class largestPalindrome():
             if str(x*y) == str(x*y)[::-1]: # Check if product is palindrome
                 palindromes.append(x*y) # Append to palindrome list
 
-    print(max(palindromes)) # Print the largest palindrome from list
+    return print(max(palindromes)) # Output the largest palindrome from list
 
+largestPalindrome() # Call function
