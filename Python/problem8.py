@@ -2,7 +2,7 @@
 Project Euler Archive Practice
 https://projecteuler.net/problem=8
 
-Problem 8 - Pythagorean Triplet
+Problem 8 - Largest Product in a Series
 SOLVED & VERIFIED VIA PROJECT EULER
 
 The four adjacent digits in the 1000-digit number that have the greatest 
