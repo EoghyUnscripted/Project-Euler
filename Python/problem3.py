@@ -1,11 +1,13 @@
-# Project Euler Archive Practice
-# https://projecteuler.net/problem=3
+"""
+Project Euler Archive Practice
+https://projecteuler.net/problem=3
 
-# Problem 3 - Largest Prime Factor
-# SOLVED & VERIFIED VIA PROJECT EULER
+Problem 3 - Largest Prime Factor
+SOLVED & VERIFIED VIA PROJECT EULER
 
-# The prime factors of 13195 are 5, 7, 13 and 29 
-# What is the largest prime factor of the number 600851475143?
+The prime factors of 13195 are 5, 7, 13 and 29 
+What is the largest prime factor of the number 600851475143?
+"""
 
 def largestPrimeFactor(n):
 
